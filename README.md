@@ -2,7 +2,7 @@
 
 ### This is the official code repository of CCKM. The paper is current under review. Give a big thanks to Dr. Li WuYang with his work [SOMA](https://github.com/CityU-AIM-Group/SOMA). We use it as baseline. The trained pth are  uploaded to [google drive]().
 
-- [ ] ## Environment Preparation
+- ## Environment Preparation
 
 ```python
 git clone https://github.com/Jandsome/CCKM.git
