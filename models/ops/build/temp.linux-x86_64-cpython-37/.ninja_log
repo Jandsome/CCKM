@@ -1,0 +1,4 @@
+# ninja log v5
+0	5749	1713790959728860691	/media/vipsl-1/Domain_adaption_repo/SOMA_mod/soma_1/models/ops/build/temp.linux-x86_64-cpython-37/media/vipsl-1/Domain_adaption_repo/SOMA_mod/soma_1/models/ops/src/cpu/ms_deform_attn_cpu.o	3cd1e1d142e92599
+0	17770	1713790971732888809	/media/vipsl-1/Domain_adaption_repo/SOMA_mod/soma_1/models/ops/build/temp.linux-x86_64-cpython-37/media/vipsl-1/Domain_adaption_repo/SOMA_mod/soma_1/models/ops/src/cuda/ms_deform_attn_cuda.o	31f9dd07a1def921
+1	21205	1713790975172896838	/media/vipsl-1/Domain_adaption_repo/SOMA_mod/soma_1/models/ops/build/temp.linux-x86_64-cpython-37/media/vipsl-1/Domain_adaption_repo/SOMA_mod/soma_1/models/ops/src/vision.o	34379ac54d13c580
