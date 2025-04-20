@@ -87,3 +87,10 @@ Replace the backbone loading path:
 
 [SOMA/models/backbone.py](https://github.com/Jandsome/CCKM/blob/main/models/backbone.py#L107)
 - ## Training and Testing
+
+```python
+CUDA_VISIBLE_DEVICES=0,1 GPUS_PER_NODE=2 ./tools/run_dist_launch.sh 2 python main_multi_eval.py --config_file configs/soma_aood_city_to_foggy_r50.yaml --opts DATASET.AOOD_SETTING 1 OUTPUT_DIR experiments/city_to_foggy/setting1
+```
+Testing
+Change FALSE to TRUE in EVAL in configs.
+https://github.com/Jandsome/CCKM/blob/main/configs/soma_aood_city_to_foggy_r50.yaml#L34
