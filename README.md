@@ -92,8 +92,10 @@ Replace the backbone loading path:
 CUDA_VISIBLE_DEVICES=0,1 GPUS_PER_NODE=2 ./tools/run_dist_launch.sh 2 python main_multi_eval.py --config_file configs/soma_aood_city_to_foggy_r50.yaml --opts DATASET.AOOD_SETTING 1 OUTPUT_DIR experiments/city_to_foggy/setting1
 ```
 Testing
+
 (1)Change FALSE to TRUE in EVAL in configs.
 https://github.com/Jandsome/CCKM/blob/main/configs/soma_aood_city_to_foggy_r50.yaml#L34
+
 (2)Copy the .pth file path to the current config file.
 https://github.com/Jandsome/CCKM/blob/main/configs/soma_aood_city_to_foggy_r50.yaml#L76
 
